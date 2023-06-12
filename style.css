@@ -1,0 +1,240 @@
+@charset "UTF- 8";
+
+@font-face {
+    font-family: 'idroid';
+    src:url(fontes/idroid.otf) format(truetype)
+}
+body{
+    display: block;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    background-color: rgba(5, 217, 107, 0.673);
+    border: 50px;
+    border-color: aliceblue;
+    background-attachment: fixed;
+    cursor: context-menu;
+    font-family: 'idroid','Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(1, 76, 1, 0.919), rgba(1, 121, 1, 0.941), rgba(0, 128, 0, 0.936), rgba(2, 159, 2, 0.76));
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: auto;
+    /*box-shadow: 2px 2px rgba(0, 0, 0, 0.359);*/
+    box-shadow: -2px 5px 4px 
+    rgba(1, 22, 1, 0.478);
+}
+header > nav{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    
+}
+nav :hover {
+    background-color: rgba(0, 0, 0, 0.67);
+    transition: 0.6s;
+}
+nav > a {
+    
+    color: white;
+    margin: 0.6%;
+    padding: 4px;
+}
+
+header > h1 {
+    margin-top: 2%;
+    color: rgba(245, 245, 245, 0.959);
+    text-shadow: 3px 2px 3px black;
+    font-size: 25px;
+}
+
+a{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.dan{
+    color: black;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#historia{
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+#primeiro{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.968);
+}
+
+.meio{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    margin: auto;
+    width: 62%;
+    box-shadow: -2px 5px 35px 2px 
+     rgba(1, 22, 1, 0.478);
+     padding-bottom: 10px;
+     border-end-start-radius: 0.5%;
+     border-end-end-radius: 0.5% ;
+     min-width: 350px;
+}
+.meio > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+/*.meio img{
+    width: 100%;
+    Geito que o prof ageitou as imagens
+}*/
+
+h3{
+    margin: auto;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    background-image: linear-gradient(to right,rgba(2, 159, 2, 0.76), transparent);
+    /*Escolhi uma das cores do head, assim como o professor fez usando as cores nas variáveis que ele criou. Dessa vez usei o comando transparent usado pelo prof na aula*/
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 2%;
+    line-height: 20px;
+}
+p > a{
+    color: rgb(0, 0, 0);
+    background-color: rgba(242, 105, 226, 0.779) ;
+    padding-right: 6px;
+    }
+    p > a:hover{
+        transition: 0.2;
+        text-decoration:underline;
+    }
+    
+picture{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+picture > img {
+    width: 90%;
+}
+
+/*auxilio pelo site demenezes.dev para centralizar as imgs e auxilio dos videos do curso em video*/
+
+#show {
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 58%;
+}
+iframe{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+}
+
+section{
+    background-color: rgba(100, 243, 169, 0.415);
+    border-radius: 3%;
+    margin: auto;
+    margin-right: 16%;
+    margin-left: 12%;
+    min-width: 201px;
+    max-width: 1000px;
+    padding-right: 80px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    box-shadow: 7px 10px 4px rgba(97, 97, 102, 0.171);
+}
+
+ #aprender{
+    background-color: rgba(5, 197, 111, 0.547);
+    text-align: start;
+    margin-right: -13.4%;
+    margin-left: -0.2%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    min-width: 270px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 12px;
+    
+}
+
+ul{
+    display: inline-flex ;
+    margin: 0%;
+    padding: 0px;
+}
+#esquerda{
+    margin-left: 5%;
+    padding-left: 5px;
+    padding-right: 100px;
+    display: inline-block;
+}
+#direita{
+    margin-left: -10%;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+}
+abbr{
+    text-decoration-line: none;
+}
+
+footer{
+    background-color: black;
+    margin: auto;
+    margin-bottom: 0%;
+    display:inline-flexbox;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    height: 20pt;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    padding-top: 12px;
+}
+h5 > a{
+    color: beige;
+}
+
+#segundo{
+    padding-bottom: 10px;
+}
+
